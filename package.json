@@ -1,0 +1,28 @@
+{
+  "name": "ffmpeg-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "build": {
+    "appId": "com.ffmpeg.gui.yf",
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "./ffmpeg-256.ico"
+    },
+    "artifactName": "${productName}-Windows-${version}-Setup.${ext}"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "author": "yf",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.1",
+    "electron-builder": "^24.13.3"
+  }
+}
