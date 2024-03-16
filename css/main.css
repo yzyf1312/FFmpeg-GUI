@@ -88,6 +88,10 @@ select {
   margin-top: -2.2rem !important;
 }
 
+.user-select-none {
+  user-select: none;
+}
+
 .hide {
   display: none !important;
 }

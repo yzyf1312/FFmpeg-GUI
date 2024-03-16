@@ -6,7 +6,7 @@
     <title>FFmpeg-GUI</title>
     <link href="./css/nes.min.css" rel="stylesheet" crossorigin="anonymous" />
     <link href="./css/main.css" rel="stylesheet" />
-    <link rel="icon" href="./ffmpeg-256.ico">
+    <link rel="icon" href="./ffmpeg-64.ico">
 </head>
 
 <body>
@@ -34,13 +34,13 @@
         <!-- 操作区 -->
         <div class="showcase">
             <div class="nes-container is-rounded with-title">
-                <p class="title">CMD</p>
+                <p class="title user-select-none">CMD</p>
                 <div class="nes-field">
                     <div id="cmd">
                         <input type="text" id="command" class="nes-input" value=""><button
                             class="nes-btn is-error cancel"><i class="nes-icon close is-large"></i></button>
                     </div>
-                    <div id="run">
+                    <div id="run" class="user-select-none">
                         <div class="nes-select common">
                             <select required id="common">
                                 <option value="" disabled selected hidden data-i18n="commonCommands"></option>
@@ -78,15 +78,16 @@
         <!-- 日志输出 -->
         <div class="showcase">
             <div class="nes-container is-rounded with-title">
-                <p class="title">Console</p>
+                <p class="title user-select-none">Console</p>
                 <div id="log" spellcheck="false"></div>
             </div>
         </div>
 
         <!-- 底部 -->
         <div class="showcase bottom">
-            <p class="nes-container is-rounded">
-                首次启动需等待下载ffmpeg(30MB+)<br>由于现处于测试版本,目前只允许处理最大2G的视频<br><br>本程序旨在为 FFmpeg 使用者提供易于学习和使用的图形界面以及在沙盒中安全地对媒体文件进行处理<br>自豪的使用 FFmpeg 和 Artplayer</p>
+            <p class="nes-container is-rounded user-select-none">
+                首次启动需等待下载ffmpeg(30MB+)<br>由于现处于测试版本,目前只允许处理最大2G的视频<br><br>本程序旨在为 FFmpeg
+                使用者提供易于学习和使用的图形界面以及在沙盒中安全地对媒体文件进行处理<br>自豪的使用 FFmpeg 和 Artplayer<br>界面设计：Bilibili@笨猫猫</p>
         </div>
     </div>
 
