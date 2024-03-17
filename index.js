@@ -10,6 +10,6 @@ const createWindow = () => {
 };
 
 app.whenReady().then(() => {
-    Menu.setApplicationMenu(null); // 隐藏菜单栏
+    //Menu.setApplicationMenu(null); // 隐藏菜单栏
     createWindow();
 });

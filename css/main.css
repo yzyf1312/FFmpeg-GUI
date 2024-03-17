@@ -191,3 +191,7 @@ screen and (orientation: portrait) {
     color: white;
   }
 }
+
+.user-select-none {
+  user-select: none;
+}
